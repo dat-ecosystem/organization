@@ -28,7 +28,7 @@ And knowing about incidents that are not violations, or happen outside our space
 
 ## What happens after you file a report?
 
-You will receive an email from the dat consortium, acknowledging receipt immediately.
+You will receive an email from the Dat Ecosystem consortium, acknowledging receipt immediately.
 We promise to acknowledge receipt within 24 hours _(and will aim for much quicker than that)_.
 
 The working group will immediately meet to review the incident and determine:
