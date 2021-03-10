@@ -2,7 +2,7 @@
 
 👋 Hello Friend!
 
-The "Dat Ecosystem" is a project people interested in things like the [hypercore-protocol](https://hypercore-protocol.org).
+The "Dat Ecosystem" is a project composed of people interested in things like the [hypercore-protocol](https://hypercore-protocol.org).
 
 We are organized around our [📜 Manifesto](./MANIFESTO.md), check it out if you want to know what, how and why we do things.
 
