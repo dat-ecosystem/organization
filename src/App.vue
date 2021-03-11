@@ -4,7 +4,7 @@
     <hr />
     <p class="bg-gray-100 p-2">
       <em>Whisper</em> is a browser tool <em>(it sends nothing to a server!)</em> to send private messages to other people using their public keys.
-      It relies exclusively on the cryptographic tools provided by your browser.
+      It relies exclusively on the cryptographic tools provided by your browser. <a href="https://github.com/martinheidegger/whisper" class="underline">Source Code on Github</a>
     </p>
     <div class="flex justify-right" v-if="keys.theirs || keys.mine">
       <button tabindex="0" @click="clearEverything" class="mt-2 focus:outline-none mr-2 bg-red-200 rounded-md px-2 py-1 hover:bg-red-400 focus:bg-red-300">
