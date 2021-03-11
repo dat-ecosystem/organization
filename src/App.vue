@@ -3,7 +3,7 @@
     <h1 class="text-4xl pt-3 mb-2"><img src="/key.svg" title="key icon" style="width: 1em; height: 1em; display: inline-block;"> Whisper</h1>
     <hr />
     <p class="bg-gray-100 p-2">
-      <em>Whisper</em> is a browser tool <em>(it sends nothing to a server!)</em> to send private messages to other people using their private keys.
+      <em>Whisper</em> is a browser tool <em>(it sends nothing to a server!)</em> to send private messages to other people using their public keys.
       It relies exclusively on the cryptographic tools provided by your browser.
     </p>
     <div class="flex justify-right" v-if="keys.theirs || keys.mine">
