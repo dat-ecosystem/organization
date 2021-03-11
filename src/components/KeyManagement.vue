@@ -34,7 +34,7 @@
         <dd><textarea readonly class="border-solid border-gray-300 border p-2 w-full h-40 text-sm">{{ JSON.stringify(keys.mine.publicKey, null, 2) }}</textarea></dd>
       </dl>
       <p>
-        You can also give this link to a friend instead <a :href="url(keys.mine.publicKey)">{{ url(keys.mine.publicKey) }}</a>.
+        You can also give this link to a friend instead <a :href="url(keys.mine.publicKey)" class="text-purple-600 font-bold underline">Link</a>.
       </p>
     </details>
     <div v-if="requireTheirs && !(keys.theirs && keys.theirs.publicKey)" class="pl-5">
