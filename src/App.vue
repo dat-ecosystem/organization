@@ -23,6 +23,7 @@
         </button>
         <div class="flex-grow border-b-2" />
       </div>
+      <key-management :keys="keys" :require-theirs="tabs === 'encrypt'" />
       <div class="block" :class="{ 'hidden': tabs !== 'encrypt' }">
         <encrypt-message :keys="keys" />
       </div>
@@ -35,6 +36,7 @@
 
 <script setup>
 import { reactive, ref } from 'vue'
+import KeyManagement from './components/KeyManagement.vue'
 import EncryptMessage from './components/EncryptMessage.vue'
 import DecryptMessage from './components/DecryptMessage.vue'
 import { publicKeyFromLocation } from './lib/crypto'

@@ -116,12 +116,21 @@ export async function receiveMessage (sender, receiver, message) {
   const decoded = await cbor.decodeAll(raw)
   const [ senderPublicKey, encryptedForReceiver, encryptedForSender ] = decoded
   if (sender && qcompare(senderPublicKey, sender.publicKey)) {
-    return await decrypt(sender.keyPair.privateKey, encryptedForSender)
+    return {
+      decrypted: await decrypt(sender.keyPair.privateKey, encryptedForSender)
+    }
   }
+
   if (receiver && qcompare(senderPublicKey, receiver.publicKey)) {
-    return await decrypt(receiver.keyPair.privateKey, encryptedForSender)
+    return {
+      decrypted: await decrypt(receiver.keyPair.privateKey, encryptedForSender)
+    }
   }
-  return await decrypt(receiver.keyPair.privateKey, encryptedForReceiver)
+
+  return {
+    decrypted: await decrypt(receiver.keyPair.privateKey, encryptedForReceiver),
+    sender: await importPublicKey(senderPublicKey)
+  }
 }
 
 export async function decrypt (privateKey, message) {
