@@ -1,6 +1,7 @@
 # Dat Ecosystem - Reporting Guide
 
-If you believe someone is violating [the code of conduct](./code-of-conduct.md) we ask that you report it to the Dat Ecosystem Consortium by emailing to `conduct@dat-ecosystem.org`.
+If you believe someone is violating [the code of conduct](./code-of-conduct.md) we ask that you report it to the Dat Ecosystem Consortium
+created an encrypted issue using [our private contact system](https://dat-ecosystem.org/organization).
 
 All reports will be kept confidential. In some cases we may determine that a public statement will need to be made.
 If that's the case, the identities of all victims and reporters will remain confidential unless those individuals instruct us otherwise.
@@ -28,8 +29,7 @@ And knowing about incidents that are not violations, or happen outside our space
 
 ## What happens after you file a report?
 
-You will receive an email from the Dat Ecosystem consortium, acknowledging receipt immediately.
-We promise to acknowledge receipt within 24 hours _(and will aim for much quicker than that)_.
+We promise to acknowledge the issue with a reply within 24 hours _(and will aim for much quicker than that)_.
 
 The working group will immediately meet to review the incident and determine:
 
