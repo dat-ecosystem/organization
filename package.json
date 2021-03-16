@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --outDir docs",
     "serve": "vite preview",
     "favicon": "npx icofy public/key.svg public/favicon --which favicons,android,appleIcon"
   },
