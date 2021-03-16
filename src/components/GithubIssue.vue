@@ -59,7 +59,7 @@ const reply = ref(null)
 const encryptedReply = ref(null)
 
 let previous = null
-let current = 0n
+let current = 0
 
 function encryptReply () {
  runAsync(async () => {
@@ -68,7 +68,7 @@ function encryptReply () {
 }
 
 function update () {
-  current += 1n
+  current += 1
   const index = current 
   if (previous !== null) {
     previous()
