@@ -117,7 +117,7 @@ export async function sendMessage (sender, receiver, message) {
       sender.keyPair.publicKey,
       encoded
     )
-  )).match(/.{0,256}/g).join('\n')
+  )).match(/.{0,80}/g).join('\n')
 }
 
 export async function receiveMessage (sender, receiver, message) {
