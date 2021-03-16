@@ -61,6 +61,22 @@ export function publicKeyURL (publicKey) {
   return `${document.location.href.replace(/#.*$/g, '')}#${base64encode(cbor.encode(publicKey))}`
 }
 
+export function publicKeyFromJSON (publicKey, cb) {
+  try {
+    importPublicKey(publicKey)
+      .then(
+        cb,
+        err => {
+          console.warn(err)
+          cb(null)
+        }
+      )
+  } catch (err) {
+    console.warn(err)
+    cb(null)
+  }
+}
+
 export function publicKeyFromLocation (cb) {
   let { hash } = document.location
   if (hash.startsWith('#')) {
@@ -71,14 +87,7 @@ export function publicKeyFromLocation (cb) {
   }
   try {
     const publicKey = cbor.decode(base64decode(hash))
-    importPublicKey(publicKey)
-      .then(
-        cb,
-        err => {
-          console.warn(err)
-          cb(null)
-        }
-      )
+    publicKeyFromJSON(publicKey, cb)
   } catch (err) {
     console.warn(err)
     cb(null)
@@ -108,7 +117,7 @@ export async function sendMessage (sender, receiver, message) {
       sender.keyPair.publicKey,
       encoded
     )
-  ))
+  )).match(/.{0,256}/g).join('\n')
 }
 
 export async function receiveMessage (sender, receiver, message) {
@@ -131,6 +140,76 @@ export async function receiveMessage (sender, receiver, message) {
     decrypted: await decrypt(receiver.keyPair.privateKey, encryptedForReceiver),
     sender: await importPublicKey(senderPublicKey)
   }
+}
+
+const splitReg = /(?:[A-Z0-9+/]{4})*(?:[A-Z0-9+/]{2}==|[A-Z0-9+/]{3}=)?/igm
+
+export function splitBase64Parts (str, minlength = 0) {
+  splitReg.lastIndex = 0
+  const blocks = []
+  let prev = 0
+  let data
+  const lineBreaks = []
+  str = str.replace(/\n/gm, (_, index) => {
+    lineBreaks.push(index)
+    return ''
+  })
+  while ((data = splitReg.exec(str)) !== null) {
+    const { length } = data[0]
+    if (length === 0) {
+      splitReg.lastIndex += 1
+      continue
+    }
+    if (length < minlength) {
+      continue
+    }
+    if (prev !== data.index) {
+      blocks.push({ text: str.substring(prev, data.index) })
+    }
+    blocks.push({ b64: data[0] })
+    prev = splitReg.lastIndex
+  }
+  if (prev !== str.length) {
+    blocks.push({ text: str.substr(prev) })
+  }
+  if (lineBreaks.length === 0) {
+    return blocks
+  }
+  let offset = 0
+  let blockIndex = 0
+  let block = blocks[0]
+  let text = block.b64 || block.text
+  while (lineBreaks.length > 0) {
+    let breakIndex = lineBreaks.shift() - offset
+    while (breakIndex > text.length) {
+      offset += text.length
+      breakIndex -= text.length
+      block = blocks[++blockIndex]
+      text = block.b64 || block.text
+    }
+    text = text.substr(0, breakIndex) + '\n' + text.substr(breakIndex)
+    if (block.b64) {
+      block.b64 = text
+    } else {
+      block.text = text
+    }
+  }
+  return blocks
+}
+
+export function receivePartiallyEncrypted (sender, receiver, message) {
+  const blocks = splitBase64Parts(message, 1000 /* our messages are quite long and easy to identify */)
+  for (const block of blocks) {
+    if (!block.b64) {
+      continue
+    }
+    block.process = receiveMessage(sender, receiver, block.b64)
+      .then(
+        success => ({ success }),
+        error => ({ error })
+      )
+  }
+  return blocks
 }
 
 export async function decrypt (privateKey, message) {
