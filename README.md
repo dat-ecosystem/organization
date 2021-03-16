@@ -11,3 +11,5 @@ You can meet us at [🗓 Events](https://events.dat.foundation/), in the [💬 D
 If you meet us, please be aware that we follow a [📜 Code of Conduct](./code-of-conduct.md).
 
 We also publish things on our communal [🎥 Youtube Channel](https://https://www.youtube.com/channel/UCbLY5Qg3t3OJbxZZUioqMOQ) or our communal [🐦 Twitter Account](https://twitter.com/dat_protocol).
+
+If you would like to discuss any sensitive matter with the Consortium, please use [our private contact system](https://dat-ecosystem.org/organization).

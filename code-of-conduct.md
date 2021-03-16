@@ -12,7 +12,7 @@ This code of conduct applies to all spaces (real or digital) managed by the Dat 
 
 In addition, violations of this code outside these spaces may affect a person's ability to participate within them.
 
-If you believe someone is violating the code of conduct, we ask that you report it by emailing conduct@dat-ecosystem.org.
+If you believe someone is violating the code of conduct, we ask that you report it using [our private contact system](https://dat-ecosystem.org/organization).
 
 For more details please see our [Reporting Guidelines](./code-of-conduct-contact.md).
 
