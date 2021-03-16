@@ -6,7 +6,7 @@
       <p>
         <a 
           class="focus:outline-none mr-2 bg-yellow-200 rounded-md px-2 py-1 hover:bg-yellow-400 focus:bg-yellow-300"
-          :href="`https://github.com/dat-ecosystem/organization/issues/new?title=${encodeURIComponent('Message to the consortium')}&body=${encodeURIComponent(`Private Message:\n\n\`\`\`\n${encrypted}\n\`\`\``)}`"
+          :href="`https://github.com/dat-ecosystem/organization/issues/new?title=${encodeURIComponent('Message to the consortium')}&body=${encodeURIComponent(`Private Message:\n\n\n${encrypted}\n`)}`"
           target="_blank">
           Open github issue form with encrypted text prefilled
         </a>
