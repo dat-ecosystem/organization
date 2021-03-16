@@ -150,7 +150,7 @@ export function splitBase64Parts (str, minlength = 0) {
   let prev = 0
   let data
   const lineBreaks = []
-  str = str.replace(/\n/gm, (_, index) => {
+  str = str.replace(/\r/g, '').replace(/\n|\r\n?/gm, (_, index) => {
     lineBreaks.push(index)
     return ''
   })
