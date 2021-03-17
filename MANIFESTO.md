@@ -34,7 +34,6 @@ Consortium members _(alphabetic order)_:
 - [Franz Heinzmann](https://github.com/frando)
 - [Kevin Faaborg](https://github.com/zootella)
 - [Martin Heidegger](https://github.com/martinheidegger)
-- [Mathias Buus](https://github.com/mafintosh)
 - [Mauve](https://github.com/rangermauve)
 - [Nina Breznik](https://github.com/nbreznik)
 - [Paul Frazee](https://github.com/pfrazee)
