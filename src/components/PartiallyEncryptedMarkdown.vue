@@ -36,7 +36,6 @@ for (const block of props.parts) {
       .then(({ success, error }) => {
         block.success = success
         block.error = error
-        console.log(error.stack)
         updated.value = Date.now()
       })
   }
