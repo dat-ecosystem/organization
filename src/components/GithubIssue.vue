@@ -2,7 +2,7 @@
   <div v-if="keys.mine && keys.mine.privateKey">
     <div class="bg-gray-100 p-3">
       <label for="issue" class="font-semibold">Github Issue:</label>
-      {{`https://github.com/${repo}/issue/`}}<input ref="issueInput" name="issue" @change="update" class="border m" />
+      {{`https://github.com/${repo}/issue/`}}<input ref="issueInput" name="issue" @change="update" @keydown="update" class="border m" />
       <span v-if="!loading && issue">[<a :href="`${issue.html_url}`" target="_blank" class="text-blue-800 hover:underline">Link</a>]</span>
     </div>
     <div v-if="loading" class="color-gray">
@@ -67,7 +67,10 @@ function encryptReply () {
   })
 }
 
-function update () {
+function update (e) {
+  if (e instanceof KeyboardEvent && e.code !== 'Enter') {
+    return
+  }
   current += 1
   const index = current 
   if (previous !== null) {
@@ -87,29 +90,28 @@ function update () {
     if (issueNr < 1) {
       throw new Error('We need positive numbers')
     }
-    try {
-      const issueURL = `https://api.github.com/repos/${props.repo}/issues/${issueNr}`
-      const issueRes = await axios.get(issueURL, { cancelToken })
-      const commentsRes = await axios.get(issueRes.data.comments_url, { cancelToken })
-      issue.value = {
-        ...issueRes.data,
-        parts: receivePartiallyEncrypted(props.keys.theirs, props.keys.mine, issueRes.data.body)
-      }
-      comments.value = 
-        commentsRes.data.map((comment, index) => {
-          return {
-            ...comment,
-            parts: receivePartiallyEncrypted(props.keys.theirs, props.keys.mine, comment.body)
-          }
-        })
-    } catch (err) {
-      error.value = err
-      console.log(err)
-    } finally {
-      loading.value = false
+    const issueURL = `https://api.github.com/repos/${props.repo}/issues/${issueNr}`
+    const issueRes = await axios.get(issueURL, { cancelToken })
+    const commentsRes = await axios.get(issueRes.data.comments_url, { cancelToken })
+    issue.value = {
+      ...issueRes.data,
+      parts: receivePartiallyEncrypted(props.keys.theirs, props.keys.mine, issueRes.data.body)
     }
+    comments.value = 
+      commentsRes.data.map((comment, index) => {
+        return {
+          ...comment,
+          parts: receivePartiallyEncrypted(props.keys.theirs, props.keys.mine, comment.body)
+        }
+      })
   })()
-    .catch(err => {
+    .then(
+      () => {
+        if (index === current) {
+          loading.value = false
+        }
+      },
+      err => {
       if (index === current) {
         loading.value = false
         error.value = err
