@@ -24,7 +24,7 @@
         <div v-if="encryptedReply">
           <h3 class="mb-2 mt-3 font-semibold">Your Encrypted Reply</h3>
           <p>
-            Unfortunately we can not prefill this for you. You need to copy-paste this <a :href="`${issue.html_url}`" target="_blank" class="text-blue-800 hover:underline">here</a>.
+            Unfortunately we can not prefill this for you. You need to copy-paste this <a :href="`${issue.html_url}#issuecomment-new`" target="_blank" class="text-blue-800 hover:underline">here</a>.
           </p>
           <!-- eslint-disable-next-line vue/no-textarea-mustache -->
           <pre readonly class="border-solid border-gray-300 border p-2 w-full h-40 text-sm select-all overflow-scroll wrap">{{ encryptedReply }}</pre>
