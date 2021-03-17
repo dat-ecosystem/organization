@@ -124,7 +124,7 @@ export async function receiveMessage (sender, receiver, message) {
   const raw = base64decode(message)
   const decoded = await cbor.decodeAll(raw)
   const [ senderPublicKey, encryptedForReceiver, encryptedForSender ] = decoded
-  if (sender && qcompare(senderPublicKey, sender.publicKey)) {
+  if (sender && qcompare(senderPublicKey, sender.publicKey) && sender.keyPair.privateKey !== null) {
     return {
       decrypted: await decrypt(sender.keyPair.privateKey, encryptedForSender)
     }
