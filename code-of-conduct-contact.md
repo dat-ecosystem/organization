@@ -70,4 +70,4 @@ The consortium will follow the usual enforcement process with the other members,
 
 Any of the parties directly involved or affected can request reconsideration of the consortium’s decision.
 
-To make such a request, contact the Consortium at `conduct@dat-ecosystem.org` with your request and motivation and the consortium will review the case.
+To make such a request, contact the Consortium using [our private contact system](https://dat-ecosystem.org/organization) with your request and motivation and the consortium will review the case.
