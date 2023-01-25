@@ -4,7 +4,7 @@
 
 The "Dat Ecosystem" is a project composed of people interested in things like the [hypercore-protocol](https://hypercore-protocol.org).
 
-We are organized around our [📜 Manifesto](./MANIFESTO.md), check it out if you want to know what, how and why we do things.
+We are organized around our [📜 Manifesto](./consortium/MANIFESTO.md), check it out if you want to know what, how and why we do things.
 
 You can meet us at [🗓 Events](https://events.dat.foundation/), in the [💬 Discord Chat](https://discord.gg/fZymdRfctR), at [👥 Comm-Comm casual meetups](https://comm-comm.datproject.org/) or [💬 Cabal](https://github.com/dat-ecosystem/dat-ecosystem.github.io/blob/main/README.md#connect-to-cabal-with-cli-or-download-cabal-desktop).
 
