@@ -16,7 +16,6 @@ This group is **governed by individuals** that form together _"the Consortium"_.
 - Enact our [code of conduct](./code-of-conduct.md).
 - Raise and maintain funds and assets to fulfill the goals.
 - Use decentralized systems wherever feasible.
-- Meet every two weeks with an agenda.
 - Publicly and transparently document the process and offer the public a means to comment.
 - Coordinate efforts by members.
 
