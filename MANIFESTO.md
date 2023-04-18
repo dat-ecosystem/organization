@@ -22,7 +22,7 @@ This group is **governed by individuals** that form together _"the Consortium"_.
 
 Decisions will be done through votes at our meetings. The voting items need to be shared at least 48 hours in advance with all consortium members. Regular voting items are accepted unless there is opposition by at least one Consortium member. Members may state opposition beforehands.
 
-The addition of a member or changes to this Manifesto requires unanimous support by all Consortium members. The removal of one member requires unanimous support by all Consortium members except by the member in question.
+The addition of a member or changes to this Manifesto requires unanimous support by all Consortium members. The removal of one member requires unanimous support by all Consortium members except by the member in question. Members can remove themselves at any given time.
 
 [1]: https://hypercore-protocol.org
 
@@ -32,7 +32,6 @@ Consortium members _(alphabetic order)_:
 - [Alexander Praetorius](https://github.com/serapath)
 - [Diego Paez](https://github.com/dpaez)
 - [Franz Heinzmann](https://github.com/frando)
-- [Martin Heidegger](https://github.com/martinheidegger)
 - [Kevin Faaborg](https://github.com/zootella)
 - [Mauve](https://github.com/rangermauve)
 - [Nina Breznik](https://github.com/nbreznik)
