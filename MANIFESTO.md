@@ -20,7 +20,7 @@ This group is **governed by individuals** that form together _"the Consortium"_.
 - Coordinate efforts by members.
 - Communicate on [discord/cabal](https://github.com/dat-ecosystem/dat-ecosystem.github.io#join-the-dat-ecosystem-chat-network)
 
-Proposals can be submited as pull requests to the organisation repository under `/proposals/${YYY}.${MM}.${DD}-${proposal_name}.md`.
+Proposals can be submited as pull requests to the organisation repository under `/consortium/decisions/${YYY}.${MM}.${DD}-${proposal_name}.md`.
 Proposer needs to tag all consortium members in the pull request and notify consortium members in the active consortium communication channel.
 
 Decisions will be done through voting by consortium members. The voting period lasts 2 weeks. Regular voting items are accepted unless there is opposition by at least one Consortium member. Members may state opposition beforehands.
