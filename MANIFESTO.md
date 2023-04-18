@@ -20,12 +20,17 @@ This group is **governed by individuals** that form together _"the Consortium"_.
 - Coordinate efforts by members.
 - Communicate on [discord/cabal](https://github.com/dat-ecosystem/dat-ecosystem.github.io#join-the-dat-ecosystem-chat-network)
 
-Proposals can be submited as pull requests to the organisation repository under `/consortium/decisions/${YYY}.${MM}.${DD}-${proposal_name}.md`.
+Proposals are submitted as pull requests to `/consortium/decisions/${YYY}.${MM}.${DD}-${proposal_name}.md` in the organisation repository.  
 Proposer needs to tag all consortium members in the pull request and notify consortium members in the active consortium communication channel.
 
-Decisions will be done through voting by consortium members. The voting period lasts 2 weeks. Regular voting items are accepted unless there is opposition by at least one Consortium member. Members may state opposition beforehands.
+Decisions will be done through voting by consortium members. The voting period lasts 2 weeks.  
+Regular voting items are accepted unless there is opposition by at least one Consortium member. Members may state opposition beforehands.
 
-The addition of a member or changes to this Manifesto requires unanimous support by all Consortium members. The removal of one member requires unanimous support by all Consortium members except by the member in question. After a consortium member is tagged in the proposals pull request and the consortium communication channel and that member does not respond within 3 months, their consortium membership becomes dormant, which means they do not count as consortium member in the context of deciding about proposals. Dormant consortium members can reactivate themselves at any given time. Consortium Members can end their consortium membership and remove themselves from the consortium membership list at any given time.
+The addition of a member or changes to this Manifesto requires unanimous support by all Consortium members.  
+The removal of one member requires unanimous support by all Consortium members except by the member in question.  
+After a consortium member is tagged in the proposals pull request and the consortium communication channel and that member does not respond within 3 months, their consortium membership becomes dormant, which means they do not count as consortium member in the context of deciding about proposals.  
+Dormant consortium members can reactivate themselves at any given time.  
+Consortium Members can end their consortium membership and remove themselves from the consortium membership list at any given time.
 
 [1]: https://hypercore-protocol.org
 
