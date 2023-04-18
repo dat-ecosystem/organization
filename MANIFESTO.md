@@ -5,7 +5,7 @@ We, the "Dat Ecosystem" members, come together to achieve the following goals:
 - Share our knowledge on building decentralized systems.
 - Publish our work under permissive, open culture, licenses.
 - Build decentralized systems that profit the general public.
-- Have the [hypercore-protocol][1] as a foundation of our work.
+- Have the [hypercore-protocol][1] or similar decentralized technology as a foundation of our work.
 - Promote our shared goals with the public.
 - Develop solutions to shared technical problems.
 - Find and invite new members that share our goals.
