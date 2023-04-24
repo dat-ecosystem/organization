@@ -42,6 +42,4 @@ Consortium members _(alphabetic order)_:
 - [Diego Paez](https://github.com/dpaez)
 - [Franz Heinzmann](https://github.com/frando)
 - [Kevin Faaborg](https://github.com/zootella)
-- [Mauve](https://github.com/rangermauve)
 - [Nina Breznik](https://github.com/nbreznik)
-- [Paul Frazee](https://github.com/pfrazee)
