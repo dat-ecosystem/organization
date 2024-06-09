@@ -29,7 +29,7 @@ the Dat Ecosystem proposes to transition its fiscal sponsorship to the Apero Fou
 #### Key Actions Proposed:
 1. Completion of the [Questionnaire](./questionaire.pdf) provided by the Apero Foundation for Consortium Member Review.
 2. Submission of Proposed [Answers](./answers.md) to the Apereo Foundation.
-3. Fulfillment of additional conditions stipulated by the Apero Foundation, including:
+3. Fulfillment of additional conditions stipulated by the Apereo Foundation, including:
    * Quarterly filing of the specified [form](https://docs.google.com/forms/d/e/1FAIpQLSfTMOgmpixxvZ31DCxLVjFXY1UT_HQFwOurGmsdz0IAJoI_Ag/viewform).
    * Acceptance of the [Apero Foundation's welcome policy](https://www.apereo.org/about/governance/welcoming-policy-20).
 
