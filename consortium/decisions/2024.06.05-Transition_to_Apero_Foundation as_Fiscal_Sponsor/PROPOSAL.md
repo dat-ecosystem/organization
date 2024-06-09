@@ -41,7 +41,7 @@ This proposal will undergo review and approval by the Consortium.
 All members are encouraged to provide feedback and raise any concerns before the final decision is made.
 
 ### Conclusion
-The transition to the Apero Foundation as our new Fiscal Sponsor aligns
+The transition to the Apereo Foundation as our new Fiscal Sponsor aligns
 with our [organizational objectives](https://github.com/dat-ecosystem/organization/blob/13eb30bb4270f3c1d10f2bf4e36f01f636c3e90f/MANIFESTO.md) and ensures continuity of financial support.
 
 
