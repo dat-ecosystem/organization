@@ -15,7 +15,7 @@ For more details regarding the dissolution of Open Collective Foundation,
 please refer to the [official statement](https://blog.opencollective.com/open-collective-official-statement-ocf-dissolution/)
 
 Extensive research into potential alternative 501(c)(3) Fiscal Sponsors has identified
-the [Apero Foundation](https://www.apereo.org/) as a candidate aligned with the Dat Ecosystem Manifesto
+the [Apereo Foundation](https://www.apereo.org/) as a candidate aligned with the Dat Ecosystem Manifesto
 and suitable for transition. A meeting with Mr. [Patrick Masson](@massonpj@fosstodon.org), Executive Director of the Apereo Foundation,
 indicated potential interest. Subsequently, we received a questionnaire
 from the Apero Foundation for the Dat Ecosystem to complete,
