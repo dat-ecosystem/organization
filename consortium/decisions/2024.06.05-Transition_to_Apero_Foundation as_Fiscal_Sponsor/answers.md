@@ -14,7 +14,7 @@
 * Alexander Praetorius
     * a.praetorius@serapath.de
 * Diego Paez
-    * diego@geut-studio.com
+    * diego@geutstudio.com
 * Franz Heinzmann
     * frando@unbiskant.org
 * Kevin Faaborg
