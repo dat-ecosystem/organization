@@ -75,8 +75,6 @@ Currently, we have no other contractual obligations. Some minor expenses, such a
 
 All personnell of Dat-Ecosystem are volunteers. Nobody is employed by Dat-Ecosystem. The personnel consists of consortium members only, each of which is also a (co-)founder of an independent Dat-Ecosystem member project. If the Dat-Ecosystem consortium decides to act in accordance with the manifesto, it usually assigns budgets to activities and selects people to carry out those activities and funds it via the budget it resides over.
 
-All personnel within the Dat-Ecosystem are volunteers; no individuals are employed by the Dat-Ecosystem. The personnel exclusively consist of consortium members, each of whom is also a (co-)founder of an independent Dat-Ecosystem member project. When the Dat-Ecosystem consortium decides to act in accordance with the manifesto, it typically allocates budgets to specific activities and appoints individuals to execute said activities, funding them through the respective budget under its oversight.
-
 #### b. Will the status of the current personnel change should the AF accept the project/organization’s application?
 
 No, the consortium and its members and all Dat-Ecosystem member projects will stay unchanged.
