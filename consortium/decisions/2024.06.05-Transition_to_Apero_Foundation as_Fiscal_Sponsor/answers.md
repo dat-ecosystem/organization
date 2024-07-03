@@ -39,7 +39,18 @@ We are a 501(c)(3) project, fiscally sponsored by the Open Collective Foundation
 ## 3. Current leadership (individuals governing the project/organizatoin) and governance model:
 
 The Dat-Ecosystem is governed by a consortium of individuals who are founders of long-standing Dat-based projects. This consortium oversees the brand and funds on behalf of the member projects and collaborates to foster progress toward the goals described in the manifesto.
-https://github.com/dat-ecosystem/organization/blob/13eb30bb4270f3c1d10f2bf4e36f01f636c3e90f/MANIFESTO.md
+
+> We, the "Dat Ecosystem" members, come together to achieve the following goals:
+> - Share our knowledge on building decentralized systems.
+> - Publish our work under permissive, open culture, licenses.
+> - Build decentralized systems that profit the general public and empower users.
+> - Have dat protocols (e.g. [hypercore-protocol](https://hypercore-protocol.org/) or similar) as a foundation of our work.
+> - Promote our shared goals with the public.
+> - Develop solutions to shared technical problems.
+> - Find and invite new members that share our goals.
+> - Promote the adoption of shared technology through documentation or standardization.
+
+The entire Manifesto can be read here: https://github.com/dat-ecosystem/organization/blob/13eb30bb4270f3c1d10f2bf4e36f01f636c3e90f/MANIFESTO.md
 
 ## 4. Describe whether the project/organization is currently in or was previously in any other fiscal sponsorhsip arrangements and why the group is looking for a new fiscal sponsor.
 
