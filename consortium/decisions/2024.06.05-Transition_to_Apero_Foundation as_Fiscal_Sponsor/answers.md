@@ -142,9 +142,14 @@ Yes.
 ## Questions for the Apero Foundation
 
 1. What fees does Apero Foundation expect from its fiscally sponsored projects?
-
+   * `APEREO`: **Answer:** see:
+     * [fiscal sponsorship agreement](https://github.com/serapath/organization/blob/main/consortium/decisions/2024.06.05-Transition_to_Apero_Foundation%20as_Fiscal_Sponsor/Dat-Ecosystem%20Fiscal%20Sponsorship%20Application%20%26%20ReportV2%20-%20Google%20Docs.pdf)
+     * [Apereo Welcome Policy](https://www.apereo.org/about/governance/welcoming-policy-20)
+     * [fiscal sponsoree welcome information and policies](https://github.com/serapath/organization/blob/main/consortium/decisions/2024.06.05-Transition_to_Apero_Foundation%20as_Fiscal_Sponsor/ApereoFiscalSponsoreeWelcomeInformation%26Policies.pdf)
 2. Can we continue operating through Open Collective?
-
+   * `APEREO`: **Answer:** Yes, but only for workflow management, internal ledger/book-keeping, like CiviCRM, but not as a fiscal sponsor, so those modules would need to be deactivated, such as collecting funds, transactions, billing, etc...
 3. In case of future cryptocurrency donations, could Apero Foundation support the process of claiming these funds?
-
+   * `APEREO`: **Answer:** No, the any cryptocurrency donations would need to be liquidated into USD immediately
 4. What are the guidelines and rules of the process for terminating fiscal sponsorship agreements by either party?
+   * `APEREO`: **Answer:** see (11.) and (12.) in the following document:
+     * [fiscal sponsorship agreement](https://github.com/serapath/organization/blob/main/consortium/decisions/2024.06.05-Transition_to_Apero_Foundation%20as_Fiscal_Sponsor/Dat-Ecosystem%20Fiscal%20Sponsorship%20Application%20%26%20ReportV2%20-%20Google%20Docs.pdf)
