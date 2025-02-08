@@ -48,10 +48,14 @@ Mangage transition of Fiscal Sponsor from Open Collective and Code for Science a
 5. [ ] share required fiscal sponsorship transfer documents with OpenCollective to complete fiscal sponsorship change
    * **`assign`** [Phyllis Dobbs](mailto:accounting@apereo.org) - Apereo's Controller (funding/finances)
    * **`inputs`** 📦 [leaving OCF document](https://docs.opencollective.foundation/leaving-ocf) **from** `OPENCOLLECTIVE#1`
-   1. [ ] create IRS determination letter for dat-ecosystem to submit to OpenCollective to complete transition of fiscal sponsorship change
-      * **`assign`** [Phyllis Dobbs](mailto:accounting@apereo.org) - Apereo's Controller (funding/finances)
-      * **`output`** ❓ [IRS determination letter](#)
-        * **next** `dat-ecosystem#9.3`
+   1. [ ] Share an MOU fiscal sponsorship with dat-ecosystem to be signed by dat-ecosystem representatives and Apereo and then send it to OpenCollective 
+      * **`assign`** [Patrick Masson](mailto:patrick.masson@apereo.org)
+      * **`output`** 📦 [fiscal sponsorship agreement teplate](./ApereoFiscalSponsorshipApplication%26ReportV2_Template.pdf)
+        * **next** `dat-ecosystem#9.2`
+      * **`output`** 📦 [fiscal sponsorship agreement](./Dat-Ecosystem%20Fiscal%20Sponsorship%20Application%20%26%20ReportV2%20-%20Google%20Docs.pdf)
+        * **next** `dat-ecosystem#9.2`
+      * **`output`** 📦 [fiscal sponsorship agreement Apereo Signed](./DatEcosystem_Fiscal_Sponsorship_Agreement_C.pdf)
+        * **next** `dat-ecosystem#9.2`
    2. [ ] provide ACH deposit information to dat-ecosystem for submitting to OpenCollective for completing the transition of fiscal sponsorship change
       * **`assign`** [Phyllis Dobbs](mailto:accounting@apereo.org) - Apereo's Controller (funding/finances)
       * **`output`** ❓ [ACH deposit info including OpenCollective Bank Account transfer information](#)
@@ -60,7 +64,7 @@ Mangage transition of Fiscal Sponsor from Open Collective and Code for Science a
       * **`assign`** [Phyllis Dobbs](mailto:accounting@apereo.org) - Apereo's Controller (funding/finances)
       * **`output`** ❓ [W9](#)
         * **next** `dat-ecosystem9.3`
-   4. [x] Send OpenCollective Proof of Apereo's 501c3 status
+   4. [x] Send OpenCollective IRS determination letter as Proof of Apereo's 501c3 status
       * **`assign`** [Patrick Masson](mailto:patrick.masson@apereo.org)
       * **`inputs`** 🎁 [form 990 - return of organization excempt from income tax](https://apps.irs.gov/pub/epostcard/cor/462060554_202212_990_2024010922202106.pdf)
       * **`output`** 📦 [form 990 apereo - return of organization excempt from income tax](./Apereo_form990.pdf)
@@ -71,14 +75,6 @@ Mangage transition of Fiscal Sponsor from Open Collective and Code for Science a
       * **`assign`** [Patrick Masson](mailto:patrick.masson@apereo.org)
       * **`output`** 📦 [DatEcosystemLetterOfTransfer.pdf](./DatEcosystemLetterOfTransfer.pdf)
         * **next** `dat-ecosystem#9.3`
-   6. [ ] Share an MOU fiscal sponsorship with dat-ecosystem to be signed by dat-ecosystem representatives and Apereo and then send it to OpenCollective 
-      * **`assign`** [Patrick Masson](mailto:patrick.masson@apereo.org)
-      * **`output`** 📦 [fiscal sponsorship agreement teplate](./ApereoFiscalSponsorshipApplication%26ReportV2_Template.pdf)
-        * **next** `dat-ecosystem#9.2`
-      * **`output`** 📦 [fiscal sponsorship agreement](./Dat-Ecosystem%20Fiscal%20Sponsorship%20Application%20%26%20ReportV2%20-%20Google%20Docs.pdf)
-        * **next** `dat-ecosystem#9.2`
-      * **`output`** 📦 [fiscal sponsorship agreement Apereo Signed](./DatEcosystem_Fiscal_Sponsorship_Agreement_C.pdf)
-        * **next** `dat-ecosystem#9.2`
 6. [ ] transition dat fiscal sponsorship from open collective to apereo
    * **`assign`** [Phyllis Dobbs](mailto:accounting@apereo.org) - Apereo's Controller (funding/finances)
    * **`inputs`** 📦 `dat-transactions-ALL.OCF2024.csv` (submitted via email to Apereo Foundation by @serapath) **from** `dat-ecosystem#3.1`
@@ -87,7 +83,8 @@ Mangage transition of Fiscal Sponsor from Open Collective and Code for Science a
    * **`inputs`** ❓ [reciept of transferung liquidated HNS airdrup funds to apereo](#) **from** `dat-ecosystem#10`
    * **`inputs`** ❓ [fiscal sponsorship agreement Apereo & dat-ecosystem Signed](#) **from** `dat-ecosystem#9.2`
    * **`inputs`** ❓ [approved and executed transfer of remaining dat funds from open collective to apereo](#) **from** `OPENCOLLECTIVE#2`
-   * **`outputs`** ❓ [donation options provided by Phyllis Dobbs](#)
+   * **`inputs`** ❓ [Signed DatEcosystemLetterOfTransfer.pdf](#) **from** `OPENCOLLECTIVE#2`
+   * **`output`** ❓ [donation options provided by Phyllis Dobbs](#)
      * **next** `dat-ecosystem#15`
      * **next** `APEREO#3.2`
 7. [ ] Begin official onboarding process and discuss options with dat-ecosystem about publicity program to communicate to public
@@ -112,6 +109,8 @@ Mangage transition of Fiscal Sponsor from Open Collective and Code for Science a
    * **`inputs`** 📦 [leaving OCF document](https://docs.opencollective.foundation/leaving-ocf) **from** `OPENCOLLECTIVE#1`
    * **`inputs`** 📦 [filled out exist & unhosting review form](https://docs.google.com/forms/d/e/1FAIpQLSeqCKSSKFIw5laas7S2lWjAH6ia_G-790Y5rU1Kfz2ZLCHjVg/closedform) **from** `dat-ecosystem#9.1`
    * **`inputs`** ❓ [filed fiscal sponsorship transition from opencollective to apereo expense with all inputs above attached](#) **from** `dat-ecosystem#9.3`
+   * **`output`** ❓ [Signed DatEcosystemLetterOfTransfer.pdf](#)
+     * **next** `APEREO#6`
    * **`output`** ❓ [approved and executed transfer of remaining dat funds from open collective to apereo](#)
      * **next** `APEREO#6`
 
@@ -192,9 +191,9 @@ Mangage transition of Fiscal Sponsor from Open Collective and Code for Science a
         * **next** `OPENCOLLECTIVE#2`
    2. [ ] submit a signed MOU fiscal sponsorship agreement needed for IRS tax filings and to complete the fiscal sponsorship transition to Open Collective and Apereo
       * **`assign`** [serapath](https://github.com/serapath)
-      * **`inputs`** 📦 [fiscal sponsorship agreement teplate](./ApereoFiscalSponsorshipApplication%26ReportV2_Template.pdf) **from** `APEREO#5.6`
-      * **`inputs`** 📦 [fiscal sponsorship agreement](./Dat-Ecosystem%20Fiscal%20Sponsorship%20Application%20%26%20ReportV2%20-%20Google%20Docs.pdf) **from** `APEREO#5.6`
-      * **`inputs`** 📦 [fiscal sponsorship agreement Apereo Signed](./DatEcosystem_Fiscal_Sponsorship_Agreement_C.pdf) **from** `APEREO#5.6`
+      * **`inputs`** 📦 [fiscal sponsorship agreement teplate](./ApereoFiscalSponsorshipApplication%26ReportV2_Template.pdf) **from** `APEREO#5.1`
+      * **`inputs`** 📦 [fiscal sponsorship agreement](./Dat-Ecosystem%20Fiscal%20Sponsorship%20Application%20%26%20ReportV2%20-%20Google%20Docs.pdf) **from** `APEREO#5.1`
+      * **`inputs`** 📦 [fiscal sponsorship agreement Apereo Signed](./DatEcosystem_Fiscal_Sponsorship_Agreement_C.pdf) **from** `APEREO#5.1`
       * **`output`** ❓ [fiscal sponsorship agreement Apereo & dat-ecosystem Signed](#)
         * **next** `dat-ecosystem#9.3`
         * **next** `APEREO#6`
