@@ -24,7 +24,7 @@ Mangage transition of Fiscal Sponsor from Open Collective and Code for Science a
         * **next** `dat-ecosystem#5`
    2. [ ] add dat-ecosystem page to apereo website
       * **`assign`** [Michelle Hall](mailto:michelle.hall@apereo.org) - Apereo's website/drupal admin and communications manager
-      * **`inputs`** ❓ [generic dat-ecosystem "about" info](#) **from** `dat-ecosystem#5`
+      * **`inputs`** 📦 [generic dat-ecosystem "about" info](./intake_form_filledout.pdf) **from** `dat-ecosystem#5`
       * **`inputs`** ❓ [donation options provided by Phyllis Dobbs](#) **from** `APEREO#6`
       * **`output`** ❓ [live: https://apereo.org/programs/software/dat-ecosystem](https://apereo.org/programs/software/dat-ecosystem)
         * **next** `dat-ecosystem#15`
@@ -48,7 +48,7 @@ Mangage transition of Fiscal Sponsor from Open Collective and Code for Science a
 5. [ ] share required fiscal sponsorship transfer documents with OpenCollective to complete fiscal sponsorship change
    * **`assign`** [Phyllis Dobbs](mailto:accounting@apereo.org) - Apereo's Controller (funding/finances)
    * **`inputs`** 📦 [leaving OCF document](https://docs.opencollective.foundation/leaving-ocf) **from** `OPENCOLLECTIVE#1`
-   1. [ ] Share an MOU fiscal sponsorship with dat-ecosystem to be signed by dat-ecosystem representatives and Apereo and then send it to OpenCollective 
+   1. [x] Share an MOU fiscal sponsorship with dat-ecosystem to be signed by dat-ecosystem representatives and Apereo and then send it to OpenCollective 
       * **`assign`** [Patrick Masson](mailto:patrick.masson@apereo.org)
       * **`output`** 📦 [fiscal sponsorship agreement teplate](./ApereoFiscalSponsorshipApplication%26ReportV2_Template.pdf)
         * **next** `dat-ecosystem#9.2`
@@ -71,7 +71,7 @@ Mangage transition of Fiscal Sponsor from Open Collective and Code for Science a
         * **next** `dat-ecosystem#9.3`
       * **`output`** 📦 [proof_of_501c3_apereo.pdf](./proof_of_501c3_apereo.pdf)
         * **next** `dat-ecosystem#9.3`
-   5. [ ] Send OpenCollective Foundation: A one-page Letter of transfer of dat-ecosystem fiscal sponsorship to be signed by OpenCollective
+   5. [x] Send OpenCollective Foundation: A one-page Letter of transfer of dat-ecosystem fiscal sponsorship to be signed by OpenCollective
       * **`assign`** [Patrick Masson](mailto:patrick.masson@apereo.org)
       * **`output`** 📦 [DatEcosystemLetterOfTransfer.pdf](./DatEcosystemLetterOfTransfer.pdf)
         * **next** `dat-ecosystem#9.3`
@@ -161,11 +161,11 @@ Mangage transition of Fiscal Sponsor from Open Collective and Code for Science a
    * **`inputs`** 📦 [domains-and-emailaddresses.md](./domains-and-emailaddresses.md) **from** `cs&s#1`
    * **`output`** 📦 [usage intention for email addresses and domains](./domains-and-emailaddresses.md#USAGE_INTENTION)
      * **next** `APEREO#4`
-5. [ ] provide generic information about dat-ecosystem to Apereo for updating their website similar to (https://www.apereo.org/opencast/, https://www.apereo.org/sakai, https://www.apereo.org/uportal)
+5. [x] provide generic information about dat-ecosystem to Apereo for updating their website similar to (https://www.apereo.org/opencast/, https://www.apereo.org/sakai, https://www.apereo.org/uportal)
    * **`assign`** [serapath](https://github.com/serapath)
    * **`inputs`** 📦 [Dat Ecosystem Apereo Foundation New Project Intake Form for Communications.pdf](/Dat%20Ecosystem%20Apereo%20Foundation%20New%20Project%20Intake%20Form%20for%20Communications.pdf) **from** `APEREO#3.1`
-   * [ ] look for inspiration on bottom of existing apereo pages, such as OPENCAST and check their links to e.g. github, a project page, docs, community contacts, etc.
-   * **`output`** ❓ [generic dat-ecosystem "about" info](#)
+   * [x] look for inspiration on bottom of existing apereo pages, such as OPENCAST and check their links to e.g. github, a project page, docs, community contacts, etc.
+   * **`output`** 📦 [generic dat-ecosystem "about" info](./intake_form_filledout.pdf)
      * **next** `APEREO#3.2`
 6. [ ] help transition `dat-ecosystem.org` domain to Apereo
   * **`assign`** [ninebreznik](https://github.com/ninabreznik)
@@ -189,7 +189,7 @@ Mangage transition of Fiscal Sponsor from Open Collective and Code for Science a
       * **`assign`** [serapath](https://github.com/serapath)
       * **`output`** 📦 [filled out exist & unhosting review form](https://docs.google.com/forms/d/e/1FAIpQLSeqCKSSKFIw5laas7S2lWjAH6ia_G-790Y5rU1Kfz2ZLCHjVg/closedform)
         * **next** `OPENCOLLECTIVE#2`
-   2. [ ] submit a signed MOU fiscal sponsorship agreement needed for IRS tax filings
+   2. [x] submit a signed MOU fiscal sponsorship agreement needed for IRS tax filings
       * **`assign`** [serapath](https://github.com/serapath)
       * **`inputs`** 📦 [fiscal sponsorship agreement teplate](./ApereoFiscalSponsorshipApplication%26ReportV2_Template.pdf) **from** `APEREO#5.1`
       * **`inputs`** 📦 [fiscal sponsorship agreement](./Dat-Ecosystem%20Fiscal%20Sponsorship%20Application%20%26%20ReportV2%20-%20Google%20Docs.pdf) **from** `APEREO#5.1`
