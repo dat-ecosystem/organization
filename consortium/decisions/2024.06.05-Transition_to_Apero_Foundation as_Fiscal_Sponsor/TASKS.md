@@ -156,7 +156,7 @@ Mangage transition of Fiscal Sponsor from Open Collective and Code for Science a
       * **`assign`** [Diego](https://github.com/dpaez)
       * **`output`** 📦 `dat-contributors-OCF2024.csv` (submitted via email to Apereo Foundation by @serapath)
         * **next** `APEREO#6`
-4. [ ] make usage plan for all domains and email addresses for apereo to configure them appropriately
+4. [x] make usage plan for all domains and email addresses for apereo to configure them appropriately
    * **`assign`** [serapath](https://github.com/serapath)
    * **`inputs`** 📦 [domains-and-emailaddresses.md](./domains-and-emailaddresses.md) **from** `cs&s#1`
    * **`output`** 📦 [usage intention for email addresses and domains](./domains-and-emailaddresses.md#USAGE_INTENTION)
@@ -178,10 +178,10 @@ Mangage transition of Fiscal Sponsor from Open Collective and Code for Science a
    * **`output`** ❓ [signedwelcome information and policies](#)
      * **next** `APEREO#6`
      * **next** `dat-ecosystem#12`
-8. [ ] store, change and update all old credentials
+8. [x] store, change and update all old credentials
    * **`assign`** [serapath](https://github.com/serapath)
-   * **`inputs`**❓ [dat onepassword credentials](#) **from** `cs&s#3`
-   * **`output`** 🏁❓ [updated list of dat-ecosystem credentials shared with consortium members](#)
+   * **`inputs`** 📦 `dat onepassword credentials` (via email) **from** `cs&s#3`
+   * **`output`** 🏁📦 [updated list of dat-ecosystem credentials shared with consortium members](#)
 9. [ ] send and forward documents to opencollective to complete transition fiscal sponsorship from Open Collective Foundation to Apereo Foundation
    * **`assign`** [serapath](https://github.com/serapath)
    * **`inputs`** 📦 [leaving OCF document](https://docs.opencollective.foundation/leaving-ocf) **from** `OPENCOLLECTIVE#1`
@@ -245,7 +245,7 @@ Mangage transition of Fiscal Sponsor from Open Collective and Code for Science a
        * **`assign`** [serapath](https://github.com/serapath)
        * **`output`** ❓ [deactived financial service modules for dat's OpenCollective account](https://opencollective.com/dat)
          * **next** `APEREO#7`
-14. [ ] update business processes to integrate book keeping with apereo founation
+14. [o] update business processes to integrate book keeping with apereo founation
     * **`assign`** [serapath](https://github.com/serapath)
     * **`output`** ❓ [update business process specification](#)
       * **next** `APEREO#7`
