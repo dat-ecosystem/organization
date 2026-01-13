@@ -1,7 +1,7 @@
 # Dat Ecosystem - Reporting Guide
 
 If you believe someone is violating [the code of conduct](./code-of-conduct.md) we ask that you report it to the Dat Ecosystem Consortium
-created an encrypted issue using [our private contact system](https://dat-ecosystem.org/organization).
+created an encrypted issue using [our private contact system](https://dat-ecosystem.github.io/organization/).
 
 All reports will be kept confidential. In some cases we may determine that a public statement will need to be made.
 If that's the case, the identities of all victims and reporters will remain confidential unless those individuals instruct us otherwise.
@@ -68,4 +68,4 @@ The members you contact will respond to the issue, to the best of their ability,
 
 Any of the parties directly involved or affected can request reconsideration of the consortium’s decision.
 
-To make such a request, contact the Consortium using [our private contact system](https://dat-ecosystem.org/organization) with your request and motivation and the consortium will review the case.
+To make such a request, contact the Consortium using [our private contact system](https://dat-ecosystem.github.io/organization/) with your request and motivation and the consortium will review the case.
