@@ -12,4 +12,4 @@ If you meet us, please be aware that we follow a [📜 Code of Conduct](./code-o
 
 We also publish things on our communal [🎥 Youtube Channel](https://www.youtube.com/@DatEcosystem) or our communal [🐦 Twitter Account](https://twitter.com/dat_ecosystem).
 
-If you would like to discuss any sensitive matter with the Consortium, please use [our private contact system](https://dat-ecosystem.org/organization).
+If you would like to discuss any sensitive matter with the Consortium, please use [our private contact system](https://dat-ecosystem.github.io/organization/).
