@@ -1,7 +1,7 @@
 # Dat Ecosystem - Reporting Guide
 
-If you believe someone is violating [the code of conduct](./code-of-conduct.md) we ask that you report it to the Dat Ecosystem Consortium
-created an encrypted issue using [our private contact system](https://dat-ecosystem.org/organization).
+If you believe someone is violating [the code of conduct][1] we ask that you report it to the Dat Ecosystem Consortium
+created an encrypted issue using [our private contact system][2].
 
 All reports will be kept confidential. In some cases we may determine that a public statement will need to be made.
 If that's the case, the identities of all victims and reporters will remain confidential unless those individuals instruct us otherwise.
@@ -60,7 +60,7 @@ We'll take into account feedback from the reporter on the appropriateness of our
 If your report concerns a current member of the consortium, you may not feel comfortable sending your report to the committee,
 as all members will see the report.
 
-In that case, you can make a report directly to any or all other workgroup group or consortium members. Their means of contact are listed on the [Manifesto](./MANIFESTO.md).
+In that case, you can make a report directly to any or all other workgroup group or consortium members. Their means of contact are listed on the [Manifesto][3].
 
 The members you contact will respond to the issue, to the best of their ability, in a group excluding the member(s) that the report concerns.
 
@@ -68,4 +68,10 @@ The members you contact will respond to the issue, to the best of their ability,
 
 Any of the parties directly involved or affected can request reconsideration of the consortium’s decision.
 
-To make such a request, contact the Consortium using [our private contact system](https://dat-ecosystem.org/organization) with your request and motivation and the consortium will review the case.
+To make such a request, contact the Consortium using [our private contact system][2] with your request and motivation and the consortium will review the case.
+
+
+
+[1]: ./code-of-conduct-contact.md
+[2]: https://dat-ecosystem.github.io/organization/ "dat-ecosystem private contact system"
+[3]: ./MANIFESTO.md
